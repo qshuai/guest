@@ -1,0 +1,32 @@
+#member #content .left{
+    float: left;
+    text-align: right;
+    margin: 0 0 0 80px;
+}
+#member #content .right{
+    float: left;
+}
+#member #content .right dd{
+    padding: 0 0 5px 0;
+    text-indent: 20px;
+}
+#member .right img{
+    width: 25px;
+}
+#member .right .text{
+    margin: 5px 0;
+    width:200px;
+    height:25px;
+    text-indent: 5px;
+}
+#member .right .button{
+    text-align: right;
+}
+#member #code{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+#member .right .button input:hover{
+    cursor: pointer;
+}

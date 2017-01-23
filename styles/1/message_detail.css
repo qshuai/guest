@@ -1,0 +1,25 @@
+#content table{
+    width: 90%;
+    margin: 5px auto;
+
+}
+#content table td{
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    mso-cellspacing: 0;
+    /*vertical-align垂直居上 下 meddle*/
+    vertical-align: top;
+}
+#content textarea{
+    resize: none;
+    border: none;
+}
+#content .button{
+    text-align: center;
+}
+#content .button input{
+    margin: 5px 15px;
+    padding: 2px 8px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+#login{
+    height:300px;
+    margin: 10px auto;
+    text-align: center;
+    border:1px solid #ccc;
+}
+#login dl{
+    width: 300px;
+    margin: 10px auto;
+    text-align: right;
+}
+#login input{
+    margin: 5px 0;
+    width:200px;
+    height:25px;
+    text-indent: 5px;
+}
+#login .radio{
+    width: 23px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+#login #code{
+    position: relative;
+    top:5px;
+    cursor: pointer;
+}
+#login .button{
+    width: 40px;
+    cursor: pointer;
+    margin: 0 0 0 60px;
+}
+#login .register{
+    margin: 5px 0 5px 10px;
+}
+#login .but{
+    text-align: center;
+}

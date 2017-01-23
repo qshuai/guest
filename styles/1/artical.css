@@ -1,0 +1,211 @@
+#artical{
+    /*height:400px;*/
+    margin: 0 auto;
+    text-align: center;
+    border:1px solid #ccc;
+    /*border-top: none;*/
+    padding: 0 0 0 40px;
+}
+h2{
+    margin: 0;
+    border:1px solid #ccc;
+    border-bottom: none;
+}
+#artical #info{
+    width: 150px;
+    display: block;
+    margin: 20px 10px;
+    float: left;
+}
+#artical #info .text{
+    width: 250px;
+    text-align: center;
+    display: block;
+    text-indent: -90px;
+    margin: 2px auto;
+    font-size: 14px;
+}
+#artical #info dl .name{
+    width: 150px;
+    /*float: none;*/
+    margin: 0 auto;
+}
+#artical #info dd{
+    width: 60px;
+    float: left;
+    height:20px;
+    line-height:20px;
+}
+#artical .message{
+    background: url("../../images/x1.gif") no-repeat left center;
+}
+#artical .friend{
+    background: url("../../images/x2.gif") no-repeat left center;
+    padding:0 0 0 10px;
+}
+#artical .leave{
+    background: url("../../images/x3.gif") no-repeat left center;
+}
+#artical .flower{
+    background: url("../../images/x4.gif") no-repeat left center;
+    padding:0 0 0 10px;
+}
+#artical #detail{
+    width: 640px;
+    /*float: right;*/
+    margin: 20px 30px 10px auto;
+}
+#artical #detail #tt{
+    min-height: 200px;
+}
+#detail #tt dl{
+    width: 95%;
+}
+#detail #tt dt{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 10px;
+    padding: 8px 0;
+}
+#detail #tt dl dd{
+    font-size: 12px;
+    width:95%;
+    padding: 5px 0;
+    color: #3b3b3b ;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+#detail #tt dl dd.content{
+    width:95%;
+    text-indent: 0;
+    padding: 10px 10px;
+    text-align: left;
+    color: #000;
+    line-height: 25px;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 16px;
+}
+#detail dd span{
+    float: right;
+}
+#art{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px 0 10px 140px;
+    text-align: left;
+}
+#art input.text{
+    height: 25px;
+    line-height: 25px;
+    text-indent: 5px;
+}
+#art #code{
+    position: relative;
+    top: 7px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#art form .button{
+    cursor: pointer;
+}
+/*除了用参数设置kindeditor大小之外，我们看html源码还可以看到kindeditor大小由class为ke-container和ke-container-default
+所在的div控制，所以我们可以给ke-container和ke-container-default设置一个宽度和高度，要确保其优先级最高，所以加！important。*/
+/*.ke-container.ke-container-default {*/
+    /*width: 600px !important;*/
+    /*height: 300px !important;*/
+/*}*/
+
+
+
+#reartical{
+    /*height:400px;*/
+    margin: 0 auto;
+    text-align: center;
+    /*border:1px solid #ccc;*/
+    /*border-top: none;*/
+    padding: 30px 0 0 20px;
+}
+#reartical #info{
+    width: 150px;
+    display: block;
+    margin: 20px 10px;
+    float: left;
+}
+#reartical #info .text{
+    width: 250px;
+    text-align: center;
+    display: block;
+    text-indent: -90px;
+    margin: 2px auto;
+}
+#reartical #info dl .name{
+    width: 150px;
+    /*float: none;*/
+    margin: 0 auto;
+}
+#reartical #info dd{
+    width: 60px;
+    float: left;
+    height:20px;
+    line-height:20px;
+}
+#reartical .message{
+    background: url("../../images/x1.gif") no-repeat left center;
+}
+#reartical .friend{
+    background: url("../../images/x2.gif") no-repeat left center;
+    padding:0 0 0 10px;
+}
+#reartical .leave{
+    background: url("../../images/x3.gif") no-repeat left center;
+}
+#reartical .flower{
+    background: url("../../images/x4.gif") no-repeat left center;
+    padding:0 0 0 10px;
+}
+#reartical #detail{
+    width: 640px;
+    /*float: right;*/
+    margin: 20px 30px 10px auto;
+}
+#reartical #detail #tt{
+    min-height: 200px;
+}
+#reartical #tt dl{
+    width: 95%;
+}
+#reartical #tt dt{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 10px;
+    padding: 8px 0;
+}
+#reartical #tt dl dd{
+    font-size: 12px;
+    width:95%;
+    padding: 5px 0;
+    color: #3b3b3b ;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+#reartical #tt dl dd.content{
+    width:95%;
+    text-indent: 0;
+    padding: 10px 10px;
+    text-align: left;
+    color: #000;
+    line-height: 25px;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 16px;
+}
+#reartical #detail dd span{
+    float: right;
+}

@@ -1,0 +1,17 @@
+#content table{
+    background: #ccc;
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+}
+#content td{
+    background: #fff;
+    font-size: 14px;
+    padding: 5px;
+}
+#content #delete{
+    cursor: pointer;
+}
+#content label{
+    cursor: pointer;
+}

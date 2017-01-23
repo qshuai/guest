@@ -1,0 +1,115 @@
+#forum{
+    width:600px;
+    height: 514px;
+    border: 1px solid #ccc;
+    float: right;
+    text-align: center;
+}
+#forum span.line{
+    letter-spacing: -3px;
+    text-align: center;
+}
+#forum .hot{
+    margin: 10px 0 0 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    top: 6px;
+    color: #f60;
+}
+#forum .publish{
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    display: block;
+    float: right;
+    text-align: center;
+    margin: 10px 30px 10px 0;
+    background: #008fd9;
+}
+#forum .publish:hover{
+    cursor: pointer;
+    background: #0066FF;
+}
+#forum .publish a{
+    color: #fff;
+    font-family: 楷体;
+    font-size: 18px;
+}
+#forum .publish a:hover{
+    color: #000;
+}
+#user{
+    width: 340px;
+    height: 250px;
+    border: 1px solid #ccc;
+}
+#pic{
+    width: 340px;
+    height: 250px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+	font-size： 12px；
+}
+#pic #show{
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+#pic #show img{
+	cursor: pointer;
+}
+#user dl{
+    width: 150px;
+    margin: 10px auto;
+}
+#user dl dd.name{
+    text-align: center;;
+    width: 150px;
+    text-indent: 0;
+}
+#user dd{
+    width: 70px;
+    float: left;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    margin: 2px 0;
+}
+#user dt img{
+    display: block;
+    margin: 0 auto;
+}
+#user .text{
+    width: 250px;
+    text-align: center;
+    display: block;
+    text-indent: -90px;
+    margin: 2px auto;
+    font-size: 14px;
+}
+#item{
+    clear: both;
+    width: 95%;
+    margin: 10px auto;
+    text-align: left;;
+}
+#item table{
+    margin: 0 auto;
+}
+#item tr th{
+    font-size: 16px;;
+    text-align: left;
+    padding: 5px 3px;
+}
+#item tr td{
+    font-size: 14px;
+    padding: 10px 3px;
+    border-bottom: 1px dashed #ccc;
+}
+#item a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}

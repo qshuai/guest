@@ -1,0 +1,38 @@
+#reg{
+    height:650px;
+    margin: 10px auto;
+    text-align: center;
+    border:1px solid #ccc;
+}
+#reg dd input{
+    margin: 5px 0;
+    width:200px;
+    height:25px;
+    text-indent: 5px;
+}
+#reg .face{
+    margin:5px 0 0 -40px;
+}
+#reg .submit input:hover{
+    cursor: pointer;
+}
+#reg .face img:hover{
+    cursor: pointer;
+}
+#reg #code{
+    position: relative;
+    top:5px;
+    cursor: pointer;
+}
+#reg .submit input{
+    height: 30px;
+    width: 50px;
+    margin: 10px 0 0 170px;
+}
+#reg .sex{
+    text-align: center;
+    width: 60px;
+}
+#sex{
+    width:20px;
+}

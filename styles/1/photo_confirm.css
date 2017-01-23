@@ -1,0 +1,21 @@
+form{
+	width: 958px;
+	height: 380px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+form dl{
+	width: 200px;
+	text-align: center;
+	margin: 100px auto;
+}
+form dl dt{
+	text-indent: -20px;
+	margin: 5px;
+}
+form dl dd input.pas{
+	height: 25px;
+	line-height: 25px;
+	margin: 0 5px;
+	text-indent: 5px;
+}

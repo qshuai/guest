@@ -1,0 +1,53 @@
+#photo{
+    /*边框咱两个像素*/
+    width: 958px;
+    border: 1px solid #ccc;
+}
+#photo .link a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    border: 1px solid #ccc;
+    margin: 20px auto 30px auto;
+}
+#photo #show{
+    min-height: 400px;
+    padding: 10px 30px;
+}
+#photo #show dl{
+    height: 150px;
+    width: 120px;
+    /*float: left;*/
+    margin: 20px 0 0 48px;
+    cursor: pointer;
+}
+#photo #show .block{
+    float: left;
+    text-align: center;
+}
+#photo #show .block input{
+    font-size: 12px;
+}
+#photo #show .block .first{
+    margin: 0 0 0 47px;
+}
+#photo #show .background{
+    background: #000;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    top: 110px;
+    opacity:0.4;
+}
+#photo #show dl .info{
+    position: relative;
+    top: 76px;
+}
+#photo #show dl dd{
+    color: #fff;
+    font-size: 12px;
+    text-indent: 1px;
+    text-align: center;
+}

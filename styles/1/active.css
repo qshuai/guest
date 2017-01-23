@@ -1,0 +1,9 @@
+#active{
+    height:300px;
+    margin: 10px auto;
+    text-align: center;
+    border:1px solid #ccc;
+}
+#active p{
+    padding:5px;
+}

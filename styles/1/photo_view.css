@@ -1,0 +1,25 @@
+#pic{
+
+    width: 958px;
+    min-height: 700px;
+    border: 1px solid #ccc;
+}
+#pic #img{
+    margin: 20px auto;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    /*float: left;*/
+    text-align: center;
+}
+#pic #left,#pic #right{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#pic #right{
+    left: 60%;
+}
